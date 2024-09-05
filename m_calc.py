@@ -5,7 +5,7 @@ import math
 import numpy as np
 import plotly.graph_objects as go
 
-st.title("Mortgage Repayments Calculator")
+st.title("Mortgage REpayments Calculator")
 
 st.write("### Input Data")
 col1, col2 = st.columns(2)
