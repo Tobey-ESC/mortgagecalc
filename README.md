@@ -4,24 +4,38 @@
 
 This project is inspired by the Streamlit app for mortgage repayments calculator seen on Youtube but there are features added by me!
 
-The app calculates the repayments based on the loan amount, interest rates, length of the payment and if you deposited any amount - the calculation was based on the tutorial but I refactored it for better results.
+A Streamlit web application that calculates mortgage repayments and provides various mortgage-related tools and information.
 
-## Features that I added
+## Features
 
-Certain features was added:
+- Calculate monthly repayments based on home value, deposit, interest rate, and loan term
+- Support for different payment frequencies (Monthly, Bi-Weekly, Weekly)
+- Amortization schedule generation and download
+- Prepayment calculator
+- Interactive charts for loan repayment breakdown
+- Mortgage FAQs and tips
 
-### Payment frequency options
-- Users can adjust the interest rate for bi-weekly, weekly and monthly payments
+## Installation
 
-### Amortization schedule download
-- Users can download the amortization schedules in a CSV file
+1. Clone the repository 
+2. Install required packages:
+   ```
+   pip install streamlit pandas matplotlib numpy plotly
+   ```
 
-### Optional feature - Prepayment calculator
-- Enable users to calculate the impact of making prepayments on their loan term and interest paid.
+## Usage
 
-### An interactive chart for loan repayment breakdown
-- interactive charts to visualize the breakdown of principal, interest, and total payments over time.
+Run the Streamlit app:
+
+```
+streamlit run m_calc.py
+```
 
 
-### Lastly, Educational Resources and Mortgage FAQs: 
-- Just a static for providing answers to common mortgage-related questions and offering advice on choosing the right mortgage, understanding mortgage terms, and improving credit scores.
+## Dependencies
+
+- Streamlit
+- Pandas
+- Matplotlib
+- NumPy
+- Plotly****
